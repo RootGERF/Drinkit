@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05070D">
+<title>Дринкит — Сеть современных цифровых кофеен</title>
+<meta name="description" content="Дринкит — франшиза цифровых кофеен. Инвестиции от 9 млн ₽, окупаемость от 3 лет, 200+ кофеен в России, 22 региона.">
+<meta property="og:title" content="Дринкит — франшиза цифровых кофеен">
+<meta property="og:description" content="200+ кофеен · 22 региона · 4 международных рынка.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<!-- PRELOADER -->
+<div class="preloader" id="preloader">
+  <div class="preloader__logo">
+    <span>D</span><span>R</span><span>I</span><span>N</span><span>K</span><span>I</span><span>T</span>
+  </div>
+  <div class="preloader__bar"></div>
+  <div class="preloader__hint">Загрузка опыта</div>
+</div>
+
+<div class="progress" id="progress"></div>
+
+<!-- MESH BACKGROUND -->
+<div class="mesh" aria-hidden="true">
+  <div class="mesh__blob"></div>
+  <div class="mesh__blob"></div>
+  <div class="mesh__blob"></div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<a href="#form" class="skip">К форме заявки</a>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a href="#" class="logo">DRINKIT</a>
+    <nav class="header__nav">
+      <a href="#locations" class="header__link">Локации</a>
+      <a href="#map" class="header__link">Карта</a>
+      <a href="#clusters" class="header__link">Кластеры</a>
+      <a href="#formats" class="header__link">Форматы</a>
+    </nav>
+    <div class="header__actions">
+      <a href="#form" class="btn btn--primary magnetic">Стать партнёром</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- FULLSCREEN MENU -->
+<div class="menu" id="menu">
+  <div class="wrap menu__inner">
+    <nav class="menu__list">
+      <a href="#" class="menu__item" style="--i:0"><span class="num">01</span>Главная</a>
+      <a href="#locations" class="menu__item" style="--i:1"><span class="num">02</span>Локации</a>
+      <a href="#map" class="menu__item" style="--i:2"><span class="num">03</span>Карта</a>
+      <a href="#clusters" class="menu__item" style="--i:3"><span class="num">04</span>Кластеры</a>
+      <a href="#formats" class="menu__item" style="--i:4"><span class="num">05</span>Форматы</a>
+      <a href="#tours" class="menu__item" style="--i:5"><span class="num">06</span>Туры</a>
+      <a href="#steps" class="menu__item" style="--i:6"><span class="num">07</span>Процесс</a>
+      <a href="#form" class="menu__item" style="--i:7"><span class="num">08</span>Заявка</a>
+    </nav>
+    <div class="menu__info">
+      <div class="menu__info-block">
+        <h4>Связь</h4>
+        <a href="mailto:franchise_drinkit@dodobrands.io">franchise_drinkit@dodobrands.io</a>
+        <a href="https://t.me/s/drinkit_business" target="_blank" rel="noopener">Telegram</a>
+      </div>
+      <div class="menu__info-block">
+        <h4>Офис</h4>
+        <p>Москва, Сретенский бульвар, 5</p>
+        <p>Пн–Пт · 10:00–20:00</p>
+      </div>
+      <div class="menu__info-block">
+        <h4>Соцсети</h4>
+        <a href="#">Telegram</a>
+        <a href="#">VK</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg">
+    <video autoplay loop muted playsinline preload="metadata">
+      <source src="https://drinkit.ru/wp-content/uploads/2026/07/Drinkit-Moscow_mp4.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+  <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+  <div class="wrap hero__content">
+    <div class="hero__inner">
+      <div class="hero__left">
+        <div class="hero__eyebrow"><span></span>200+ кофеен · 22 региона · 4 рынка</div>
+        <h1 class="hero__title">
+          <span class="word"><span>Место,</span></span>
+          <span class="word"><span>где</span></span>
+          <span class="word"><span>кофе,</span></span>
+          <span class="word"><span>еда</span></span>
+          <span class="word"><span>и</span></span>
+          <span class="word"><span>технологии</span></span>
+          <span class="word"><span><em>работают</em></span></span>
+          <span class="word"><span>вместе</span></span>
+        </h1>
+        <p class="hero__sub">Дринкит — сеть современных цифровых кофеен. Мы соединяем ремесленный вкус, собственную мануфактуру и технологии, чтобы создавать сервис, к которому хочется возвращаться.</p>
+        <div class="hero__cta">
+          <a href="#form" class="btn btn--primary magnetic">Стать партнёром</a>
+          <a href="#formats" class="btn btn--ghost magnetic">Форматы кофеен</a>
+        </div>
+      </div>
+      <div class="hero__right">
+        <div class="hero-card">
+          <div class="hero-card__tag">Прямо сейчас</div>
+          <div class="hero-card__title">3 новые заявки<br>за последний час</div>
+          <div class="hero-card__line"></div>
+          <div class="hero-card__meta">
+            <div><strong>Москва</strong><span>+2 сегодня</span></div>
+            <div><strong>Красноярск</strong><span>+1 сегодня</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="hero__stat"><div class="val">от 9 млн ₽</div><div class="lbl">инвестиции</div></div>
+      <div class="hero__stat"><div class="val">от 3 лет</div><div class="lbl">окупаемость</div></div>
+      <div class="hero__stat"><div class="val">3,7 млн ₽</div><div class="lbl">средняя выручка/мес</div></div>
+      <div class="hero__stat"><div class="val">20%</div><div class="lbl">рентабельность</div></div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-hint__line"></div>
+    <div>Скролл</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee__track" id="marqueeTrack"></div>
+</div>
+
+<!-- LOCATIONS -->
+<section class="section" id="locations">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Действующие кофейни</div>
+      <h2 class="section__title">Как работают <em>точки партнёров</em></h2>
+      <p class="section__desc">Реальная экономика действующих кофеен в Москве и регионах — с фактическими показателями чистой прибыли.</p>
+    </div>
+    <div class="locations">
+      <article class="loc reveal" data-delay="1">
+        <div class="loc__img"><img src="https://drinkit.ru/wp-content/uploads/2026/07/6979f24cf116a7eca4d2e699_DSCF4246-_1_-p-2000-1.jpg" alt="Сретенский бульвар" loading="lazy"></div>
+        <div class="loc__body">
+          <span class="loc__tag">МСК · Сретенский бульвар, 5</span>
+          <h3 class="loc__title">Флагман в центре Москвы</h3>
+          <p class="loc__profit">Чистая прибыль — <b>1,5 млн ₽/мес</b></p>
+        </div>
+      </article>
+      <article class="loc reveal" data-delay="2">
+        <div class="loc__img"><img src="https://drinkit.ru/wp-content/uploads/2026/07/697a034573986cf3b71d5531_MSK-15-1_8-_1_-p-2000-1-scaled.jpg" alt="Усиевича" loading="lazy"></div>
+        <div class="loc__body">
+          <span class="loc__tag">МСК · Усиевича, 12–14</span>
+          <h3 class="loc__title">Кофейня в жилом районе</h3>
+          <p class="loc__profit">Чистая прибыль — <b>780 тыс. ₽/мес</b></p>
+        </div>
+      </article>
+      <article class="loc reveal" data-delay="3">
+        <div class="loc__img"><img src="https://drinkit.ru/wp-content/uploads/2026/07/697a00102faba1e2f6d8cb49_Rostov-1-2_3-_1_-1-scaled.jpg" alt="Ростов" loading="lazy"></div>
+        <div class="loc__body">
+          <span class="loc__tag">Ростов-на-Дону · Пушкинская</span>
+          <h3 class="loc__title">Региональная точка</h3>
+          <p class="loc__profit">Чистая прибыль — <b>500 тыс. ₽/мес</b></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE/AFTER -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">До и после</div>
+      <h2 class="section__title">Как преображается пространство</h2>
+      <p class="section__desc">Потяните за ползунок, чтобы увидеть разницу между старой и новой кофейней Дринкит.</p>
+    </div>
+    <div class="compare reveal" id="compare">
+      <img src="https://drinkit.ru/wp-content/uploads/2026/07/6979f24cf116a7eca4d2e699_DSCF4246-_1_-p-2000-1.jpg" alt="После" class="compare__img">
+      <img src="https://drinkit.ru/wp-content/uploads/2026/07/697a034573986cf3b71d5531_MSK-15-1_8-_1_-p-2000-1-scaled.jpg" alt="До" class="compare__after">
+      <div class="compare__handle"></div>
+      <div class="compare__btn"></div>
+      <div class="compare__label compare__label--before">До</div>
+      <div class="compare__label compare__label--after">После</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRESENCE -->
+<section class="presence">
+  <div class="wrap">
+    <div class="presence__grid">
+      <div class="presence__cell reveal" data-delay="1">
+        <div class="num" data-count="200" data-suffix="+">0</div>
+        <div class="lbl">кофеен в России</div>
+      </div>
+      <div class="presence__cell reveal" data-delay="2">
+        <div class="num" data-count="22">0</div>
+        <div class="lbl">региона присутствия</div>
+      </div>
+      <div class="presence__cell reveal" data-delay="3">
+        <div class="num" data-count="4">0</div>
+        <div class="lbl">международных рынка</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="section" id="map">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <div class="eyebrow">Присутствие</div>
+      <h2 class="section__title">Мы <em>в каждом регионе</em></h2>
+      <p class="section__desc">Наведите на регион, чтобы увидеть статус партнёрства и количество кофеен.</p>
+    </div>
+
+    <div class="map-wrapper reveal" id="mapWrapper">
+      <svg class="map-svg" viewBox="0 0 1300 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Карта России">
+        <defs>
+          <linearGradient id="mapGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1A2130"/>
+            <stop offset="100%" stop-color="#0F1420"/>
+          </linearGradient>
+          <filter id="mapGlow">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- ОБЩАЯ ФОРМА РОССИИ (упрощённый контур) -->
+        <g class="map-base" fill="url(#mapGrad)" stroke="#2A3345" stroke-width="1.2" stroke-linejoin="round">
+          <!-- Северо-Запад: Мурманск, Карелия, СПб, Новгород, Псков, Калининград -->
+          <path data-region="Санкт-Петербург и Северо-Запад" data-status="Ищем партнёров" data-count="100+ кофеен"
+                d="M 95 130 L 135 105 L 190 100 L 225 120 L 245 155 L 260 195 L 250 235 L 220 265 L 190 285 L 165 305 L 145 295 L 130 275 L 110 265 L 95 245 L 85 215 L 80 185 L 70 155 L 80 130 Z"
+                class="map-region map-region--active"/>
+          <!-- Калининград (отдельно) -->
+          <path data-region="Калининград" data-status="Ищем партнёров" data-count="15 кофеен"
+                d="M 42 235 L 58 228 L 68 240 L 65 258 L 48 262 L 40 252 Z"
+                class="map-region map-region--active"/>
+          <!-- Центральный ФО: Москва, МО, Тверь, Ярославль, Владимир, Рязань, Тула, Калуга, Смоленск, Брянск -->
+          <path data-region="Москва и Московская область" data-status="Ищем партнёров" data-count="100+ кофеен"
+                d="M 260 260 L 330 245 L 380 265 L 400 320 L 385 375 L 340 405 L 285 400 L 250 370 L 235 325 Z"
+                class="map-region map-region--active"/>
+          <!-- Юг: Ростов, Краснодар, Ставрополь, Крым, Волгоград -->
+          <path data-region="Юг России" data-status="Партнёры найдены"
+                d="M 285 415 L 360 405 L 425 425 L 460 480 L 445 545 L 395 595 L 340 605 L 290 585 L 260 535 L 255 475 Z"
+                class="map-region"/>
+          <!-- Северный Кавказ: Чечня, Дагестан, Ингушетия -->
+          <path data-region="Северный Кавказ" data-status="Закрыто для развития"
+                d="M 405 600 L 460 590 L 495 620 L 480 660 L 435 665 L 400 640 Z"
+                class="map-region"/>
+          <!-- Поволжье: Татарстан, Башкортостан, Самара, Саратов, Ульяновск, Пенза -->
+          <path data-region="Поволжье" data-status="Закрыто для развития"
+                d="M 440 350 L 530 335 L 605 365 L 640 430 L 615 500 L 550 545 L 480 520 L 440 465 L 425 400 Z"
+                class="map-region"/>
+          <!-- Урал: Свердловск, Челябинск, Курган, Тюмень -->
+          <path data-region="Урал" data-status="Закрыто для развития"
+                d="M 650 330 L 745 315 L 800 360 L 815 435 L 775 505 L 700 525 L 640 495 L 615 425 Z"
+                class="map-region"/>
+          <!-- Сибирь: Новосибирск, Красноярск, Омск, Томск, Кемерово -->
+          <path data-region="Сибирь" data-status="Ищем партнёров" data-count="15 кофеен"
+                d="M 820 290 L 950 275 L 1030 300 L 1075 375 L 1045 460 L 950 500 L 865 485 L 815 420 L 800 355 Z"
+                class="map-region map-region--active"/>
+          <!-- Дальний Восток: Якутия, Приморье, Хабаровск, Амур, Камчатка, Сахалин -->
+          <path data-region="Дальний Восток" data-status="Партнёры найдены"
+                d="M 1085 265 L 1190 260 L 1250 310 L 1265 400 L 1235 490 L 1160 540 L 1105 510 L 1065 435 L 1060 355 Z"
+                class="map-region"/>
+          <!-- Арктика: ЯНАО, ХМАО, Ненецкий АО, Мурманская -->
+          <path data-region="Арктика" data-status="Закрыто для развития"
+                d="M 245 40 L 400 30 L 550 45 L 700 35 L 850 50 L 1000 40 L 1150 55 L 1240 90 L 1230 145 L 1100 165 L 950 155 L 800 175 L 650 165 L 500 185 L 350 175 L 260 150 Z"
+                class="map-region"/>
+        </g>
+
+        <!-- ТОЧКИ ГОРОДОВ -->
+        <g class="map-dots">
+          <circle cx="350" cy="330" r="6" class="map-dot map-dot--blue" data-city="Москва" data-count="100+"/>
+          <circle cx="190" cy="240" r="6" class="map-dot map-dot--blue" data-city="Санкт-Петербург" data-count="100+"/>
+          <circle cx="60" cy="245" r="5" class="map-dot map-dot--blue" data-city="Калининград" data-count="15"/>
+          <circle cx="390" cy="555" r="5" class="map-dot" data-city="Ростов-на-Дону"/>
+          <circle cx="455" cy="540" r="5" class="map-dot" data-city="Краснодар"/>
+          <circle cx="520" cy="415" r="5" class="map-dot" data-city="Казань"/>
+          <circle cx="555" cy="470" r="5" class="map-dot" data-city="Самара"/>
+          <circle cx="720" cy="405" r="5" class="map-dot" data-city="Екатеринбург"/>
+          <circle cx="760" cy="450" r="5" class="map-dot" data-city="Челябинск"/>
+          <circle cx="830" cy="435" r="6" class="map-dot map-dot--blue" data-city="Красноярск" data-count="15"/>
+          <circle cx="855" cy="360" r="5" class="map-dot" data-city="Омск"/>
+          <circle cx="890" cy="400" r="5" class="map-dot" data-city="Новосибирск"/>
+          <circle cx="905" cy="455" r="5" class="map-dot" data-city="Томск"/>
+          <circle cx="1120" cy="430" r="5" class="map-dot" data-city="Владивосток"/>
+        </g>
+      </svg>
+
+      <div class="map-tooltip" id="mapTooltip">
+        <div class="map-tooltip__name"></div>
+        <div class="map-tooltip__status"></div>
+        <div class="map-tooltip__count"></div>
+      </div>
+
+      <div class="map-legend">
+        <div class="map-legend__item"><div class="map-legend__dot map-legend__dot--blue"></div>Ищем партнёров</div>
+        <div class="map-legend__item"><div class="map-legend__dot map-legend__dot--gray"></div>Партнёры найдены</div>
+        <div class="map-legend__item"><div class="map-legend__dot map-legend__dot--dark"></div>Закрыто для развития</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLUSTERS -->
+<section class="section" id="clusters">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Кластеры</div>
+      <h2 class="section__title">4 кластера на российском рынке</h2>
+      <p class="section__desc">Для каждого кластера — своя экономика, условия партнёрства и темпы масштабирования.</p>
+    </div>
+    <div class="clusters">
+      <div class="cluster reveal" data-delay="1">
+        <div class="cluster__tags">
+          <span class="tag tag--active">Москва</span>
+          <span class="tag">МО</span>
+          <span class="tag">Санкт-Петербург</span>
+        </div>
+        <dl>
+          <div class="cluster__row"><dt>Паушальный взнос</dt><dd>1 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Инвестиции</dt><dd>от 9,5 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Роялти</dt><dd>0,1–5%</dd></div>
+        </dl>
+        <ul>
+          <li>Одиночная кофейня или собственная сеть</li>
+          <li>Возможность получить помещение от УК</li>
+          <li>Упрощённая процедура отбора</li>
+          <li>Поставки с мануфактуры УК</li>
+        </ul>
+      </div>
+      <div class="cluster reveal" data-delay="2">
+        <div class="cluster__tags"><span class="tag tag--active">Города-миллионники</span></div>
+        <dl>
+          <div class="cluster__row"><dt>Паушальный взнос</dt><dd>1,5 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Инвестиции</dt><dd>от 14,5 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Роялти</dt><dd>0,1–5%</dd></div>
+        </dl>
+        <ul>
+          <li>Сеть из 15 кофеен за 3 года</li>
+          <li>Один партнёр на город — эксклюзив</li>
+          <li>Тендер с защитой стратегии</li>
+          <li>Открытие собственной мануфактуры</li>
+        </ul>
+      </div>
+      <div class="cluster reveal" data-delay="3">
+        <div class="cluster__tags"><span class="tag tag--active">Малые города</span></div>
+        <dl>
+          <div class="cluster__row"><dt>Паушальный взнос</dt><dd>1 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Инвестиции</dt><dd>от 9 млн ₽</dd></div>
+          <div class="cluster__row"><dt>Роялти</dt><dd>0,1–5%</dd></div>
+        </dl>
+        <ul>
+          <li>Одиночная кофейня или сеть</li>
+          <li>Помещение от УК</li>
+          <li>Упрощённый отбор</li>
+          <li>Поставки с мануфактуры УК</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Технологии</div>
+      <h2 class="section__title">Что делает Дринкит <em>другим</em></h2>
+      <p class="section__desc">Собственная разработка, мануфактура и логистика Dodo Brands — три опоры, которые держат экономику каждой точки.</p>
+    </div>
+    <div class="features">
+      <div class="feat reveal" data-delay="1">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <span class="feat__num">01</span>
+        <h3 class="feat__title">Технология скорости</h3>
+        <p class="feat__text">Заказ через приложение или киоск. Бариста готовит, умная выдача отдаёт. Меньше очередей — выше выручка.</p>
+      </div>
+      <div class="feat reveal" data-delay="2">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12h6M12 9v6"/></svg>
+        </div>
+        <span class="feat__num">02</span>
+        <h3 class="feat__title">Dodo IS</h3>
+        <p class="feat__text">Собственная платформа: логистика, финансы, аналитика, отчёты и управление процессами в одном окне.</p>
+      </div>
+      <div class="feat reveal" data-delay="3">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>
+        </div>
+        <span class="feat__num">03</span>
+        <h3 class="feat__title">Уникальные пространства</h3>
+        <p class="feat__text">Каждая кофейня — комфортный путь, понятные интерфейсы и атмосфера, в которую возвращаются.</p>
+      </div>
+      <div class="feat reveal" data-delay="4">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><path d="M6 2h12l-2 12H8z"/><path d="M6 14h12v3a5 5 0 01-5 5h-2a5 5 0 01-5-5z"/></svg>
+        </div>
+        <span class="feat__num">04</span>
+        <h3 class="feat__title">Своя мануфактура</h3>
+        <p class="feat__text">Уникальные рецепты, строгий контроль, стабильный вкус и регулярные новинки в меню.</p>
+      </div>
+      <div class="feat reveal" data-delay="5">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg>
+        </div>
+        <span class="feat__num">05</span>
+        <h3 class="feat__title">Сотрудничество</h3>
+        <p class="feat__text">Развиваем, а не штрафуем. Никаких скрытых платежей. Работаем прозрачно и открыто.</p>
+      </div>
+      <div class="feat reveal" data-delay="6">
+        <div class="feat__icon">
+          <svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <span class="feat__num">06</span>
+        <h3 class="feat__title">Логистика Dodo</h3>
+        <p class="feat__text">Часть Dodo Brands: стабильные поставки в любую точку России быстро и без перебоев.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATS -->
+<section class="section" id="formats">
+  <div class="wrap">
+    <div class="section__head section__head--center reveal">
+      <div class="eyebrow">Форматы</div>
+      <h2 class="section__title">Формат под вашу цель</h2>
+    </div>
+    <div class="tabs reveal" id="formatTabs">
+      <button class="tab active" data-tab="0">Остров+</button>
+      <button class="tab" data-tab="1">Мобильный</button>
+      <button class="tab" data-tab="2">Стрит</button>
+      <button class="tab" data-tab="3">Флагман</button>
+      <button class="tab" data-tab="4">БЦ</button>
+      <button class="tab" data-tab="5">ТЦ</button>
+    </div>
+    <div class="tab-panels reveal" id="formatPanels"></div>
+  </div>
+</section>
+
+<!-- TOURS -->
+<section class="section section--tight" id="tours">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Виртуальные туры</div>
+      <h2 class="section__title">Пройдитесь по <em>нашим кофейням</em></h2>
+    </div>
+    <div class="tours">
+      <div class="tour reveal" data-delay="1"><iframe src="https://kuula.co/share/collection/7199M?logo=1&info=1&fs=0&vr=0&sd=1&thumbs=1&inst=0" loading="lazy" allowfullscreen title="Тур 1"></iframe></div>
+      <div class="tour reveal" data-delay="2"><iframe src="https://kuula.co/share/collection/7D0Mm?logo=1&info=1&fs=0&vr=0&sd=1&thumbs=1&inst=0" loading="lazy" allowfullscreen title="Тур 2"></iframe></div>
+      <div class="tour reveal" data-delay="3"><iframe src="https://kuula.co/share/collection/7Dp2w?logo=1&info=1&fs=0&vr=0&sd=1&thumbs=1&inst=0" loading="lazy" allowfullscreen title="Тур 3"></iframe></div>
+      <div class="tour reveal" data-delay="4"><iframe src="https://kuula.co/share/collection/7H7X5?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" loading="lazy" allowfullscreen title="Тур 4"></iframe></div>
+    </div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="section" id="steps">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Процесс</div>
+      <h2 class="section__title">Как стать <em>партнёром Дринкит</em></h2>
+      <p class="section__desc">Прозрачный путь от заявки до открытия — в среднем 6–8 месяцев с полной поддержкой команды.</p>
+    </div>
+    <div class="steps reveal" id="stepsHost"></div>
+  </div>
+</section>
+
+<!-- PRINCIPLES -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Принципы</div>
+      <h2 class="section__title">Во что мы <em>верим</em></h2>
+    </div>
+    <div class="principles">
+      <div class="principle reveal" data-delay="1">
+        <div class="principle__num">Принцип 01</div>
+        <h3 class="principle__title">Люди — самый ценный актив</h3>
+        <p class="principle__text">Не только продукт и технологии, а команды, которые по-настоящему горят своим делом. Мы ценим открытость: делимся опытом, результатами и лучшими решениями.</p>
+      </div>
+      <div class="principle reveal" data-delay="2">
+        <div class="principle__num">Принцип 02</div>
+        <h3 class="principle__title">Прозрачные правила и честная система</h3>
+        <p class="principle__text">Открыто публикуем отчёты и метрики, рассказываем про ошибки и успехи. Общие стандарты, равные условия, никаких исключений.</p>
+      </div>
+      <div class="principle reveal" data-delay="3">
+        <div class="principle__num">Принцип 03</div>
+        <h3 class="principle__title">Не боимся работы</h3>
+        <p class="principle__text">Наши партнёры — не наблюдатели, а полноправные участники. Каждый проходит обучение, стоит за баром, общается с гостями.</p>
+      </div>
+      <div class="principle reveal" data-delay="4">
+        <div class="principle__num">Принцип 04</div>
+        <h3 class="principle__title">Гость — в центре внимания</h3>
+        <p class="principle__text">Всё, что мы делаем, — для гостей. Ценим обратную связь, уважаем критику, исправляем ошибки. Создаём качественный и стабильный продукт.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Отзывы</div>
+      <h2 class="section__title">Что говорят <em>наши партнёры</em></h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial reveal" data-delay="1">
+        <div class="testimonial__inner">
+          <div class="testimonial__face testimonial__front">
+            <p class="testimonial__quote">«Дринкит — это не про кофе. Это про системный подход к бизнесу»</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">АК</div>
+              <div>
+                <div class="testimonial__name">Алексей К.</div>
+                <div class="testimonial__role">Партнёр · Красноярск</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__face testimonial__back">
+            <p class="testimonial__quote">За первый год открыли 5 кофеен. Окупаемость каждой — быстрее плана на 4 месяца.</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">АК</div>
+              <div>
+                <div class="testimonial__name">Алексей К.</div>
+                <div class="testimonial__role">5 кофеен в Красноярске</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial reveal" data-delay="2">
+        <div class="testimonial__inner">
+          <div class="testimonial__face testimonial__front">
+            <p class="testimonial__quote">«Прозрачность на уровне, который я не видел ни в одной франшизе»</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">МВ</div>
+              <div>
+                <div class="testimonial__name">Мария В.</div>
+                <div class="testimonial__role">Партнёр · Калининград</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial__face testimonial__back">
+            <p class="testimonial__quote">Все метрики открыты, все процессы видно. Мой флагман окупился за 2 года.</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">МВ</div>
+              <div>
+                <div class="testimonial__name">Мария В.</div>
+                <div class="testimonial__role">Флагман · Калининград</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Клиенты</div>
+      <h2 class="section__title">Лидеры рынка <em>доверяют нам</em></h2>
+    </div>
+    <div class="partners" id="partnersHost"></div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="eyebrow">Команда</div>
+      <h2 class="section__title">Команда <em>мечты</em></h2>
+    </div>
+    <div class="team" id="teamHost"></div>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="form-section" id="form">
+  <div class="wrap">
+    <div class="form__grid">
+      <div class="form__left reveal">
+        <div class="eyebrow">Заявка</div>
+        <h2>Стать <em>партнёром</em></h2>
+        <p>Оставьте заявку — вернёмся с расчётами экономики, подходящими форматами и рекомендациями под ваш город в течение трёх дней.</p>
+        <div class="form__contact">
+          <a href="mailto:franchise_drinkit@dodobrands.io">franchise_drinkit@dodobrands.io</a>
+          <a href="https://t.me/s/drinkit_business" target="_blank" rel="noopener">Telegram-канал партнёров</a>
+        </div>
+      </div>
+      <form class="form reveal" id="leadForm" data-delay="2">
+        <div class="form__row">
+          <input class="field" name="name" placeholder="Как вас зовут?" required autocomplete="name">
+          <input class="field" name="Phone" placeholder="+7" required type="tel" autocomplete="tel">
+        </div>
+        <div class="form__row">
+          <input class="field" name="email" placeholder="Почта" required type="email" autocomplete="email">
+          <select class="field" name="City" required>
+            <option value="">В каком городе хотите открыть кофейню?</option>
+            <option>Москва</option><option>Санкт-Петербург</option><option>Красноярск</option>
+            <option>Калининград</option><option>Воронеж</option><option>Владивосток</option>
+            <option>Томск</option><option>Омск</option><option>Другой город</option>
+          </select>
+        </div>
+        <div class="form__row">
+          <select class="field" name="type" required>
+            <option value="">Формат кофейни</option>
+            <option>Остров+</option><option>Мобильный</option><option>Стрит</option>
+            <option>Флагман</option><option>БЦ</option><option>ТЦ</option><option>Юнит</option>
+          </select>
+          <input class="field" name="where_u_know" placeholder="Откуда узнали о Дринкит?">
+        </div>
+        <label class="checkbox"><input type="checkbox" required> Согласие на обработку персональных данных</label>
+        <button type="submit" class="btn btn--primary form__submit magnetic">Оставить заявку</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__logo">DRINKIT</div>
+      <nav class="footer__links">
+        <a href="mailto:franchise_drinkit@dodobrands.io">franchise_drinkit@dodobrands.io</a>
+        <a href="https://t.me/s/drinkit_business" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://t.me/CustomerSupportDrinkit_bot" target="_blank" rel="noopener">Поддержка</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div>© 2026 DODO BRANDS · <a href="#">Политика конфиденциальности</a></div>
+      <div class="footer__clock" id="footerClock">Москва · 00:00</div>
+    </div>
+  </div>
+</footer>
+
+<!-- COOKIE -->
+<div class="cookie" id="cookie">
+  <div class="cookie__text">Мы используем cookies для быстрой и удобной работы сайта.</div>
+  <button class="cookie__btn" id="cookieAccept">Принять</button>
+</div>
+
+<!-- COMMAND PALETTE -->
+<div class="cmd-overlay" id="cmdOverlay">
+  <div class="cmd">
+    <input type="text" class="cmd__input" id="cmdInput" placeholder="Куда хотите перейти?">
+    <div class="cmd__list" id="cmdList"></div>
+    <div class="cmd__hint">
+      <span>↵ Перейти</span>
+      <span>↑↓ Навигация</span>
+      <span>Esc Закрыть</span>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script>
+// PRELOADER
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('preloader').classList.add('hidden');
+    document.body.classList.remove('loading');
+  }, 1500);
+});
+setTimeout(() => {
+  document.getElementById('preloader').classList.add('hidden');
+  document.body.classList.remove('loading');
+}, 3200);
+
+// HEADER SCROLL
+const header = document.getElementById('header');
+addEventListener('scroll', () => header.classList.toggle('scrolled', scrollY > 20), { passive: true });
+
+// PROGRESS
+const progress = document.getElementById('progress');
+function updateProgress() {
+  const h = document.documentElement.scrollHeight - innerHeight;
+  progress.style.transform = `scaleX(${scrollY / h})`;
+}
+addEventListener('scroll', updateProgress, { passive: true });
+updateProgress();
+
+// REVEAL
+const revealIO = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); revealIO.unobserve(e.target); }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+document.querySelectorAll('.reveal').forEach(el => revealIO.observe(el));
+
+// CURSOR
+const cursor = document.getElementById('cursor');
+const cursorDot = document.getElementById('cursorDot');
+const cursorEnabled = matchMedia('(pointer:fine)').matches;
+let mx = innerWidth / 2, my = innerHeight / 2, cx = mx, cy = my;
+addEventListener('pointermove', e => { mx = e.clientX; my = e.clientY; });
+function animCursor() {
+  cx += (mx - cx) * 0.15;
+  cy += (my - cy) * 0.15;
+  if (cursor) cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%, -50%)`;
+  if (cursorDot) cursorDot.style.transform = `translate(${mx}px, ${my}px) translate(-50%, -50%)`;
+  requestAnimationFrame(animCursor);
+}
+if (cursorEnabled) animCursor();
+document.querySelectorAll('a, button, .tab, input, select, .loc, .cluster, .feat, .principle, .member, .testimonial').forEach(el => {
+  el.addEventListener('mouseenter', () => cursor && cursor.classList.add('hover'));
+  el.addEventListener('mouseleave', () => cursor && cursor.classList.remove('hover'));
+});
+
+// MAGNETIC
+document.querySelectorAll('.magnetic').forEach(btn => {
+  btn.addEventListener('pointermove', e => {
+    const r = btn.getBoundingClientRect();
+    const x = (e.clientX - r.left - r.width / 2) * 0.25;
+    const y = (e.clientY - r.top - r.height / 2) * 0.35;
+    btn.style.transform = `translate(${x}px, ${y}px)`;
+  });
+  btn.addEventListener('pointerleave', () => btn.style.transform = '');
+});
+
+// MENU
+const burger = document.getElementById('burger');
+burger.addEventListener('click', () => document.body.classList.toggle('menu-open'));
+document.querySelectorAll('.menu__item').forEach(item => {
+  item.addEventListener('click', () => document.body.classList.remove('menu-open'));
+});
+
+// MARQUEE
+const cities = ['Москва','Санкт-Петербург','Красноярск','Калининград','Воронеж','Владивосток','Томск','Омск','Казань','Самара','Ростов-на-Дону','Сочи'];
+const marqueeTrack = document.getElementById('marqueeTrack');
+const marqueeHTML = cities.map(c => `<div class="marquee__item">${c}</div>`).join('');
+marqueeTrack.innerHTML = marqueeHTML + marqueeHTML;
+
+// FORMATS
+const formatsData = [
+  {title:'Остров+', size:'20–30 м²', desc:'Кофейня 20–30 м² с подсобкой или стеной с навесными полками. Расширяет возможности классического «Острова».', capex:'от 10 млн ₽', payback:'от 24 мес', ebitda:'500 тыс ₽'},
+  {title:'Мобильный', size:'20–30 м²', desc:'Кофейня 20–30 м² с баром и умной выдачей. Идеально для ТЦ, БЦ и оживлённых пространств.', capex:'от 9,5 млн ₽', payback:'от 24 мес', ebitda:'500 тыс ₽'},
+  {title:'Стрит', size:'40–100 м²', desc:'Кофейня 40–100 м² с просторной посадкой и большими окнами. Прогулочные улицы с высоким трафиком.', capex:'от 12 млн ₽', payback:'от 36 мес', ebitda:'800 тыс ₽'},
+  {title:'Флагман', size:'от 100 м²', desc:'Кофейня любого размера, которая становится центром притяжения района и создаёт «третье место».', capex:'от 17 млн ₽', payback:'от 36 мес', ebitda:'1,5 млн ₽'},
+  {title:'БЦ', size:'20–60 м²', desc:'Кофейня 20–60 м² в бизнес-центре: отдельное заведение или остров с посадкой и зоной ожидания.', capex:'от 15 млн ₽', payback:'от 36 мес', ebitda:'800 тыс ₽'},
+  {title:'ТЦ', size:'20–60 м²', desc:'Кофейня 20–60 м² в торговом центре. Посадка для сотрудников, зона ожидания, киоски.', capex:'от 15 млн ₽', payback:'от 36 мес', ebitda:'800 тыс ₽'}
+];
+const formatPanels = document.getElementById('formatPanels');
+formatPanels.innerHTML = formatsData.map((f, i) => `
+  <div class="panel ${i === 0 ? 'active' : ''}" data-panel="${i}">
+    <div class="format">
+      <div class="format__visual">${f.size}</div>
+      <div>
+        <h3>${f.title}</h3>
+        <p class="format__desc">${f.desc}</p>
+        <div class="format__metrics">
+          <div><div class="val">${f.capex}</div><div class="lbl">CAPEX</div></div>
+          <div><div class="val">${f.payback}</div><div class="lbl">Окупаемость</div></div>
+          <div><div class="val">${f.ebitda}</div><div class="lbl">Средняя EBITDA</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+`).join('');
+
+document.querySelectorAll('#formatTabs .tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const idx = tab.dataset.tab;
+    document.querySelectorAll('#formatTabs .tab').forEach(t => t.classList.toggle('active', t === tab));
+    document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.dataset.panel === idx));
+  });
+});
+
+// STEPS
+const stepsData = [
+  {d:'3 дня', t:'Заявка на сайте', x:'Заполните анкету — мы пришлём расчёты экономики, подходящие форматы и рекомендации под ваш город.'},
+  {d:'1 неделя', t:'Подготовка презентации', x:'Вы готовите презентацию о себе: опыт, планы, финансы, стратегия.'},
+  {d:'1 неделя', t:'Собеседование', x:'Открытый разговор: обсуждаем мотивацию, цели, инвестиции. Онлайн или офлайн.'},
+  {d:'до 3 недель', t:'Проверка и договор', x:'Юридическая регистрация, проверка и подписание договора с поддержкой команды.'},
+  {d:'5 дней', t:'Обучение', x:'Знакомство с командой и погружение в экосистему: кухня, HR, экономика.'},
+  {d:'~ 30 дней', t:'Поиск помещения', x:'Самостоятельно по гайдам или через услугу поиска УК.'},
+  {d:'~ 4 месяца', t:'Проектирование и стройка', x:'Мы готовим проект, делимся подрядчиками, поддерживаем на каждом этапе.'},
+  {d:'~ 30 дней', t:'Подбор и обучение команды', x:'Подбираете команду, мы обучаем по стандартам в учебном центре на Сретенке.'},
+  {d:'—', t:'Открытие и масштабирование', x:'Проверяем онлайн, утверждаем план роста и масштабируем сеть.'}
+];
+const stepsHost = document.getElementById('stepsHost');
+stepsHost.innerHTML = stepsData.map((s, i) => `
+  <div class="step reveal" data-delay="${Math.min(i, 6)}">
+    <div class="step__dot">${String(i + 1).padStart(2, '0')}</div>
+    <div>
+      <div class="step__day">${s.d}</div>
+      <h3 class="step__title">${s.t}</h3>
+      <p class="step__text">${s.x}</p>
+    </div>
+  </div>
+`).join('');
+document.querySelectorAll('.step.reveal').forEach(el => revealIO.observe(el));
+
+// PARTNERS
+const partnersData = [
+  {logo:'АЛЬФА', quote:'В Альфа Дринкит стал альтернативой кофе-поинта в офисе — команда довольна: вкуснее, быстрее, разнообразнее.'},
+  {logo:'Т-БАНК', quote:'В офисе Т-Банка Дринкит сразу на трёх этажах. Команда заходит за кофе между встречами, гости — перед переговорами.'},
+  {logo:'LAMODA', quote:'Делаем шопинг комфортнее: Дринкит в магазине Lamoda Sport. Берите кофе, делайте паузу — и возвращайтесь к покупкам.'}
+];
+document.getElementById('partnersHost').innerHTML = partnersData.map((p, i) => `
+  <div class="partner reveal" data-delay="${i + 1}">
+    <div class="partner__logo">${p.logo}</div>
+    <p class="partner__quote">${p.quote}</p>
+  </div>
+`).join('');
+
+// TEAM
+const teamData = [
+  {name:'Юрий Брызгалов', role:'Менеджер открытий', img:'https://drinkit.ru/wp-content/uploads/2026/07/68e76675a100090e211c9151_68e6728d4d06bb17a472b4fb_Group-2087326968-1.jpg'},
+  {name:'Яна Канина', role:'Лидер HR', img:'https://drinkit.ru/wp-content/uploads/2026/07/68e7667588aa36b09a78e06f_68e6728d4d06bb17a472b4de_Group202087326966.jpg'},
+  {name:'Саша Умаров', role:'Лидер Дринкит Россия', img:'https://drinkit.ru/wp-content/uploads/2026/07/68e76674f71b379610362520_68e6728d4d06bb17a472b4b2_Mask20group.jpg'},
+  {name:'Роман Сенсин', role:'Бизнес-девелопер Сибири и Урала', img:'https://drinkit.ru/wp-content/uploads/2026/09/Roma-2-e1790172525511.png'},
+  {name:'Екатерина Бобровицкая', role:'Бизнес-девелопер Юга', img:'https://drinkit.ru/wp-content/uploads/2026/09/Kate-2.png'},
+  {name:'Сергей Вернигоренко', role:'Бизнес-девелопер Санкт-Петербурга', img:'https://drinkit.ru/wp-content/uploads/2026/09/Sergey.png'}
+];
+document.getElementById('teamHost').innerHTML = teamData.map((m, i) => `
+  <div class="member reveal" data-delay="${(i % 3) + 1}">
+    <img src="${m.img}" alt="${m.name}" loading="lazy">
+    <div class="member__info">
+      <div class="member__name">${m.name}</div>
+      <div class="member__role">${m.role}</div>
+    </div>
+  </div>
+`).join('');
+document.querySelectorAll('.member.reveal, .partner.reveal').forEach(el => revealIO.observe(el));
+
+// COUNTERS
+function animateCount(el, target, suffix = '', duration = 2000) {
+  const start = performance.now();
+  function step(now) {
+    const p = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - p, 3);
+    const val = Math.round(target * eased);
+    el.textContent = val + suffix;
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+const counterIO = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      animateCount(e.target, +e.target.dataset.count, e.target.dataset.suffix || '');
+      counterIO.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(el => counterIO.observe(el));
+
+// BEFORE/AFTER
+const compare = document.getElementById('compare');
+if (compare) {
+  const after = compare.querySelector('.compare__after');
+  const handle = compare.querySelector('.compare__handle');
+  const btn = compare.querySelector('.compare__btn');
+  let dragging = false;
+  function setSplit(clientX) {
+    const r = compare.getBoundingClientRect();
+    const pct = Math.max(0, Math.min(100, ((clientX - r.left) / r.width) * 100));
+    after.style.clipPath = `inset(0 0 0 ${pct}%)`;
+    handle.style.left = pct + '%';
+    btn.style.left = pct + '%';
+  }
+  compare.addEventListener('pointerdown', e => { dragging = true; setSplit(e.clientX); });
+  addEventListener('pointerup', () => dragging = false);
+  addEventListener('pointermove', e => { if (dragging) setSplit(e.clientX); });
+}
+
+// MAP TOOLTIP
+const mapTooltip = document.getElementById('mapTooltip');
+const mapWrapper = document.getElementById('mapWrapper');
+if (mapWrapper && mapTooltip) {
+  mapWrapper.querySelectorAll('[data-region], .map-dot').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      const name = el.dataset.region || el.dataset.city || '';
+      const status = el.dataset.status || '';
+      const count = el.dataset.count || '';
+      mapTooltip.querySelector('.map-tooltip__name').textContent = name;
+      mapTooltip.querySelector('.map-tooltip__status').textContent = status || (el.classList.contains('map-dot--blue') ? 'Ищем партнёров' : '');
+      mapTooltip.querySelector('.map-tooltip__count').textContent = count;
+      mapTooltip.classList.add('active');
+    });
+    el.addEventListener('mousemove', e => {
+      const r = mapWrapper.getBoundingClientRect();
+      mapTooltip.style.left = (e.clientX - r.left) + 'px';
+      mapTooltip.style.top = (e.clientY - r.top) + 'px';
+    });
+    el.addEventListener('mouseleave', () => mapTooltip.classList.remove('active'));
+  });
+}
+
+// COOKIE
+const cookieEl = document.getElementById('cookie');
+if (!localStorage.getItem('drinkit_cookie')) setTimeout(() => cookieEl.classList.add('show'), 1400);
+document.getElementById('cookieAccept').addEventListener('click', () => {
+  localStorage.setItem('drinkit_cookie', '1');
+  cookieEl.classList.remove('show');
+});
+
+// COMMAND PALETTE
+const cmdOverlay = document.getElementById('cmdOverlay');
+const cmdInput = document.getElementById('cmdInput');
+const cmdList = document.getElementById('cmdList');
+const cmdItems = [
+  {label:'Главная', target:'#'},
+  {label:'Локации', target:'#locations'},
+  {label:'Карта', target:'#map'},
+  {label:'Кластеры', target:'#clusters'},
+  {label:'Форматы', target:'#formats'},
+  {label:'Туры', target:'#tours'},
+  {label:'Процесс', target:'#steps'},
+  {label:'Заявка', target:'#form'}
+];
+function renderCmd(filter = '') {
+  const filtered = cmdItems.filter(i => i.label.toLowerCase().includes(filter.toLowerCase()));
+  cmdList.innerHTML = filtered.length ? filtered.map(i => `
+    <div class="cmd__item" data-target="${i.target}">
+      <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <span>${i.label}</span>
+      <kbd>↵</kbd>
+    </div>
+  `).join('') : '<div class="cmd__empty">Ничего не найдено</div>';
+  cmdList.querySelectorAll('.cmd__item').forEach(item => {
+    item.addEventListener('click', () => {
+      document.querySelector(item.dataset.target)?.scrollIntoView({ behavior: 'smooth' });
+      cmdOverlay.classList.remove('open');
+    });
+  });
+}
+renderCmd();
+addEventListener('keydown', e => {
+  if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+    e.preventDefault();
+    cmdOverlay.classList.toggle('open');
+    if (cmdOverlay.classList.contains('open')) { cmdInput.focus(); cmdInput.select(); }
+  }
+  if (e.key === 'Escape') {
+    cmdOverlay.classList.remove('open');
+    document.body.classList.remove('menu-open');
+  }
+});
+cmdInput.addEventListener('input', e => renderCmd(e.target.value));
+
+// CLOCK
+function updateClock() {
+  const now = new Date();
+  const moscow = new Date(now.toLocaleString('en-US', { timeZone: 'Europe/Moscow' }));
+  const hh = String(moscow.getHours()).padStart(2, '0');
+  const mm = String(moscow.getMinutes()).padStart(2, '0');
+  document.getElementById('footerClock').textContent = `Москва · ${hh}:${mm}`;
+}
+updateClock();
+setInterval(updateClock, 30000);
+
+// FORM
+document.getElementById('leadForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const btn = e.target.querySelector('.form__submit');
+  const original = btn.textContent;
+  btn.textContent = 'Отправляем…';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = '✓ Заявка отправлена';
+    btn.style.background = '#22C55E';
+    e.target.reset();
+    setTimeout(() => {
+      btn.textContent = original;
+      btn.style.background = '';
+      btn.disabled = false;
+    }, 3000);
+  }, 900);
+});
+
+// SMOOTH ANCHOR
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const id = a.getAttribute('href');
+    if (id === '#') return;
+    const t = document.querySelector(id);
+    if (t) {
+      e.preventDefault();
+      t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
